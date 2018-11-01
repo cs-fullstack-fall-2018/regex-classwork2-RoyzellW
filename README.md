@@ -17,6 +17,8 @@ Senior Colleges	Hunter College	http://hunter.cuny.edu	695 Park Avenue	New York	N
 
 ```
 
+Regexp = [0-9]{5}[\-][0-9]{4}|[0-9]{5}
+
 ### 2. BONUS Binary Challenge
 In honor of the binary number work you've been doing with Kenn, see if you can knock this one out:
 
@@ -36,3 +38,4 @@ TEST DATA:
 01101010
 01101011
 ```
+Regexp = ^0[0-9]*0$
